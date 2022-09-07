@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "name": "server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Rasaf Ibrahim",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "build": "node server.js"
+    
+  },
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.4"
+  }
+}
